@@ -95,7 +95,7 @@ resource "aws_instance" "dev" {
   subnet_id                   = aws_subnet.dev.id
   availability_zone           = "ap-northeast-1a"
   tags = {
-    Name = "Harsha1"
+    Name = "Harsha2"
   }
 }
 # Creating s3 bucket along dynamodb lock
